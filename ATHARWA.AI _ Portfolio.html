@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Atharwa Katkar | AI/ML Engineer, Class of 2026</title>
+<meta name="description" content="Portfolio of Atharwa Katkar, AI/ML graduate building website risk detection and WiFi CSI activity sensing projects.">
+<meta property="og:title" content="ATHARWA.AI | Intelligence in Action">
+<meta property="og:description" content="AI/ML engineer, class of 2026. Explore Truxera and a WiFi CSI monitoring project.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#05080f;--bg2:#0a1124;--ink:#e8f0fa;--mute:#94a3bd;--line:#1c2a47;--cy:#22d3ee;--ice:#a5d8ff;--vi:#8b7cf6;--card:#0c1530;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#05080f}}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.6 Figtree,system-ui,sans-serif;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:64px 64px;background-attachment:fixed;background-blend-mode:soft-light}
+body:before{content:"";position:fixed;inset:0;background:radial-gradient(900px 500px at 80% -10%,#122a52aa,transparent),var(--bg);opacity:.93;z-index:-1}
+h1,h2,h3{font-family:'Bricolage Grotesque',Figtree,sans-serif;line-height:1.08;margin:0;letter-spacing:-.02em}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--cy);outline-offset:3px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+header{position:sticky;top:0;z-index:10;background:#05080fd9;backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font:800 1.15rem 'Bricolage Grotesque',sans-serif;text-decoration:none}.logo span{color:var(--cy)}
+nav{display:flex;gap:20px;font-size:.92rem;overflow-x:auto}
+nav a{text-decoration:none;color:var(--mute);white-space:nowrap}nav a:hover{color:var(--ink)}
+section{padding:72px 0}
+.hero{padding:56px 0 40px;display:grid;grid-template-columns:1.15fr .85fr;gap:32px;align-items:center}
+.eyebrow{color:var(--cy);font-size:.8rem;letter-spacing:.14em;font-weight:600}
+h1{font-size:clamp(2.4rem,6.2vw,4.6rem);font-weight:800;margin:14px 0 18px}
+.lead{color:var(--mute);max-width:56ch;font-size:1.08rem}
+.cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:26px 0}
+.btn{display:inline-block;padding:12px 20px;border-radius:8px;font-weight:600;text-decoration:none;border:1px solid var(--line);background:none;color:var(--ink);cursor:pointer;font:inherit;font-weight:600}
+.btn.p{background:var(--cy);color:#04141a;border-color:var(--cy)}
+.btn:hover{border-color:var(--cy)}
+.link{color:var(--ice)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none}
+.tags li{border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:.84rem;color:var(--ice);background:#0a1530}
+.social{display:flex;gap:16px;margin-top:20px;color:var(--mute);font-size:.92rem}
+#viz{width:100%;aspect-ratio:1/1;max-height:440px;border:1px solid var(--line);border-radius:14px;background:#070d1ccc}
+.note{font-size:.78rem;color:var(--mute)}
+h2{font-size:clamp(1.8rem,4vw,2.8rem);margin-bottom:10px}
+.sub{color:var(--mute);max-width:62ch;margin:0 0 32px}
+.proj{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:16px;background:var(--card);overflow:hidden;margin-bottom:28px}
+.proj:nth-of-type(even) .art{order:2}
+.art{background:#060b19;padding:18px;display:flex;flex-direction:column;justify-content:center;gap:8px;border-right:1px solid var(--line)}
+.proj:nth-of-type(even) .art{border-right:0;border-left:1px solid var(--line)}
+.art svg{width:100%;height:auto}
+.body{padding:28px}
+.cat{color:var(--vi);font-weight:600;font-size:.9rem}
+.body h3{font-size:1.9rem;margin:6px 0 10px}
+.body p{color:var(--mute)}
+details{border-top:1px solid var(--line);padding:10px 0}
+details summary{cursor:pointer;font-weight:600;color:var(--ice)}
+details p{margin:8px 0 0;font-size:.92rem}
+.ph{color:#f5c26b;font-style:italic}
+.det{margin-top:14px}
+.flow-tabs{display:flex;gap:10px;margin-bottom:24px;flex-wrap:wrap}
+.flow-tabs button[aria-pressed=true]{background:var(--cy);color:#04141a;border-color:var(--cy)}
+.flow{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;position:relative}
+.stage{border:1px solid var(--line);border-radius:10px;background:var(--card);padding:14px;font-size:.88rem;position:relative}
+.stage b{display:block;font-family:'Bricolage Grotesque',sans-serif;font-size:1rem;margin-bottom:4px}
+.stage span{color:var(--mute)}
+.stage:after{content:"";position:absolute;right:-10px;top:50%;width:10px;height:2px;background:var(--cy);background-image:linear-gradient(90deg,var(--cy) 50%,transparent 50%);background-size:6px 2px;animation:dash 1s linear infinite}
+.stage:last-child:after{display:none}
+@keyframes dash{to{background-position:6px 0}}
+.arsenal{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.cap{border:1px solid var(--line);border-radius:12px;padding:20px;background:var(--card)}
+.cap h3{font-size:1.15rem;margin-bottom:8px}
+.cap .tags{margin:10px 0}
+.cap p{margin:0;color:var(--mute);font-size:.9rem}
+.cap:hover{border-color:var(--vi)}
+.tl{border-left:2px solid var(--cy);padding-left:24px;max-width:760px}
+.tl h3{font-size:1.4rem}
+.tl .meta{color:var(--mute);margin:4px 0 12px}
+.tl ul{margin:0 0 14px;padding-left:18px;color:var(--mute)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.card{border:1px solid var(--line);border-radius:12px;padding:20px;background:var(--card);margin-bottom:14px}
+.card h3{font-size:1.15rem;margin-bottom:6px}.card p{margin:0;color:var(--mute)}
+.pr{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.contact{border:1px solid var(--line);border-radius:18px;padding:40px;background:linear-gradient(135deg,#0d1a3a,#0a1124);}
+.contact ul{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:8px}
+.avail{display:inline-flex;align-items:center;gap:8px;color:var(--cy);font-weight:600;margin-top:16px}
+.avail:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--cy)}
+#rmsg{color:#f5c26b;font-size:.85rem;margin:0}
+footer{border-top:1px solid var(--line);padding:24px 0;color:var(--mute);font-size:.9rem}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media(max-width:900px){.hero,.proj,.two,.arsenal,.pr{grid-template-columns:1fr}.flow{grid-template-columns:1fr 1fr}.stage:after{display:none}.proj:nth-of-type(even) .art{order:0}.art,.proj:nth-of-type(even) .art{border:0;border-bottom:1px solid var(--line)}.contact{padding:24px}section{padding:52px 0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a class="logo" href="#top">ATHARWA<span>.AI</span></a>
+<nav aria-label="Primary"><a href="#work">Work</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#contact">Contact</a></nav></div></header>
+
+<main id="top">
+<div class="wrap hero">
+<div>
+<div class="eyebrow">AI/ML ENGINEER · CLASS OF 2026</div>
+<h1>Building Intelligence That Solves Real Problems.</h1>
+<p class="lead">I'm Atharwa Katkar, an Artificial Intelligence and Machine Learning graduate building practical applications across AI-powered website risk detection, wireless sensing, and intelligent software systems.</p>
+<div class="cta">
+<a class="btn p" href="#work">Explore My Work</a>
+<a class="btn" id="resume" href="resume/Atharwa_Katkar_Resume.pdf" download>Download Resume</a>
+<a class="link" href="#contact">Let's Connect</a></div>
+<p id="rmsg" role="status" hidden></p>
+<ul class="tags"><li>Applied Machine Learning</li><li>AI-Powered Applications</li><li>Signal Processing &amp; Wireless Sensing</li></ul>
+<div class="social"><a href="https://linkedin.com/in/atharwa-katkar-22109025a" rel="noopener" target="_blank">LinkedIn</a><a href="https://github.com/AtharwaKatkar" rel="noopener" target="_blank">GitHub</a></div>
+</div>
+<div><canvas id="viz" role="img" aria-label="Decorative animation of connected nodes and a signal wave"></canvas><p class="note">Decorative animation. Not real data.</p></div>
+</div>
+
+<section id="work" style="padding-top:24px"><div class="wrap">
+<h2>Live Project Launchpad</h2>
+<p class="sub">Two deployed projects. Open them live, or read how they were approached.</p>
+
+<article class="proj">
+<div class="art"><svg viewBox="0 0 400 260" role="img" aria-label="Conceptual illustration of URL analysis"><rect x="20" y="20" width="360" height="34" rx="8" fill="#0a1530" stroke="#1c2a47"/><text x="34" y="42" fill="#94a3bd" font-size="13" font-family="monospace">https://example-site.test/login</text>
+<g stroke="#22d3ee" stroke-opacity=".5"><line x1="80" y1="150" x2="170" y2="110"/><line x1="170" y1="110" x2="260" y2="160"/><line x1="170" y1="110" x2="200" y2="210"/><line x1="260" y1="160" x2="330" y2="120"/><line x1="80" y1="150" x2="200" y2="210"/></g>
+<g fill="#0a1530" stroke="#22d3ee" stroke-width="2"><circle cx="80" cy="150" r="9"/><circle cx="170" cy="110" r="12"/><circle cx="260" cy="160" r="9"/><circle cx="200" cy="210" r="8"/><circle cx="330" cy="120" r="9" stroke="#8b7cf6"/></g>
+<rect x="250" y="205" width="120" height="10" rx="5" fill="#1c2a47"/><rect x="250" y="205" width="48" height="10" rx="5" fill="#8b7cf6"/><text x="250" y="235" fill="#94a3bd" font-size="11">risk indicator (illustrative)</text></svg>
+<span class="note">Conceptual visual. It is not a live scan of your website.</span></div>
+<div class="body"><div class="cat">AI × Cybersecurity</div><h3>Making the Web a Little Safer.</h3>
+<p>Truxera is an AI-focused website risk detection platform exploring how website and URL-related signals can help identify potentially fraudulent or scam websites.</p>
+<ul class="tags"><li>Machine Learning</li><li>URL and Domain Analysis</li><li>Cybersecurity</li><li>Classification</li><li>Web Application Development</li></ul>
+<div class="cta"><a class="btn p" href="https://truxera.vercel.app/" target="_blank" rel="noopener">Launch Live Project</a><button class="btn" data-open="t">Explore Technical Details</button></div>
+<div class="det" id="t">
+<details><summary>Problem Statement</summary><p>Scam websites are hard for ordinary users to spot. <span class="ph">[Edit: add your own problem framing]</span></p></details>
+<details><summary>Engineering Approach</summary><p><span class="ph">[Edit: describe the architecture, frontend and backend you built]</span></p></details>
+<details><summary>Data Processing and Workflow</summary><p>Uses website and URL-related signals as input. <span class="ph">[Edit: list the exact features and data sources]</span></p></details>
+<details><summary>Machine Learning Methodology</summary><p>Framed as a classification problem. <span class="ph">[Edit: model, training data, evaluation. No accuracy claimed here.]</span></p></details>
+<details><summary>Implementation Challenges</summary><p><span class="ph">[Edit: real challenges you faced]</span></p></details>
+<details><summary>Current Limitations and Future Improvements</summary><p>Risk indicators are not proof that a site is fraudulent. <span class="ph">[Edit: add your own limitations and roadmap]</span></p></details>
+</div></div></article>
+
+<article class="proj">
+<div class="art"><svg viewBox="0 0 400 260" role="img" aria-label="Conceptual illustration of wireless signal waveforms"><g fill="none" stroke-width="2">
+<path d="M10 70 C50 20 90 120 130 70 S210 20 250 70 S330 120 390 70" stroke="#22d3ee"/>
+<path d="M10 130 C50 90 90 170 130 130 S210 90 250 130 S330 170 390 130" stroke="#8b7cf6" stroke-opacity=".8"/>
+<path d="M10 190 C40 170 70 210 110 190 S170 150 210 190 S300 230 330 190 S370 170 390 190" stroke="#a5d8ff" stroke-opacity=".6"/></g>
+<g fill="none" stroke="#22d3ee" stroke-opacity=".35"><circle cx="40" cy="230" r="10"/><circle cx="40" cy="230" r="22"/><circle cx="40" cy="230" r="36"/></g>
+<text x="130" y="248" fill="#94a3bd" font-size="11">decorative traces (not measured data)</text></svg>
+<span class="note">Decorative illustration. These traces are not measurements.</span></div>
+<div class="body"><div class="cat">Wireless Sensing × Machine Learning</div><h3>Sensing Human Activity Through Wireless Signals.</h3>
+<p>A WiFi Channel State Information (CSI)-based monitoring project exploring how variations in wireless signals can be processed to recognize human activity patterns without wearable sensors.</p>
+<ul class="tags"><li>WiFi Channel State Information</li><li>Signal Processing</li><li>Feature Extraction</li><li>Machine Learning</li><li>Contactless Activity Monitoring</li></ul>
+<div class="cta"><a class="btn p" href="https://health-monitoring-system-jk9w.onrender.com/" target="_blank" rel="noopener">Launch Live Project</a><button class="btn" data-open="w">Explore Technical Details</button></div>
+<div class="det" id="w">
+<details><summary>Problem Statement</summary><p>Recognizing activity without wearables. This is not a medical diagnosis tool. <span class="ph">[Edit: add your framing]</span></p></details>
+<details><summary>Engineering Approach</summary><p><span class="ph">[Edit: hardware, data collection, application structure]</span></p></details>
+<details><summary>Data Processing and Workflow</summary><p>CSI variations are processed into features. <span class="ph">[Edit: filtering, windowing, feature list]</span></p></details>
+<details><summary>Machine Learning Methodology</summary><p><span class="ph">[Edit: model, activity classes, evaluation. No results claimed here.]</span></p></details>
+<details><summary>Implementation Challenges</summary><p><span class="ph">[Edit: noise, data quality, deployment]</span></p></details>
+<details><summary>Current Limitations and Future Improvements</summary><p>No clinical validation is claimed. <span class="ph">[Edit: add your own limitations and roadmap]</span></p></details>
+</div></div></article>
+<p class="note">Amber italic text marks placeholders. Replace them with details from your implementation.</p>
+</div></section>
+
+<section id="workflow"><div class="wrap">
+<h2>From Raw Signals to Intelligent Systems</h2>
+<p class="sub">Select a project to see its conceptual pipeline. Stage details are illustrative until you verify them against the code.</p>
+<div class="flow-tabs" role="group" aria-label="Choose project workflow"><button class="btn" data-flow="t" aria-pressed="true">Truxera</button><button class="btn" data-flow="w" aria-pressed="false">WiFi CSI</button></div>
+<div class="flow" id="flow" aria-live="polite"></div>
+<p class="note" style="margin-top:12px">Conceptual workflow. Exact implementation not verified.</p>
+</div></section>
+
+<section id="skills"><div class="wrap">
+<h2>Technical Arsenal</h2>
+<p class="sub">A capability map, grouped by how each area connects to the projects.</p>
+<div class="arsenal">
+<div class="cap"><h3>Programming</h3><ul class="tags"><li>Python</li><li>SQL</li><li>Java</li><li>C++</li><li>JavaScript</li></ul><p>Python carries the ML work; JavaScript carries the web applications.</p></div>
+<div class="cap"><h3>Machine Learning</h3><ul class="tags"><li>Classification</li><li>Preprocessing</li><li>Feature engineering</li><li>Data analysis</li><li>Model development</li></ul><p>The core of both projects: turning raw signals into features a model can learn from.</p></div>
+<div class="cap"><h3>AI Foundations</h3><ul class="tags"><li>Deep learning fundamentals</li><li>NLP</li><li>Generative AI fundamentals</li></ul><p>Foundational knowledge from coursework and certifications.</p></div>
+<div class="cap"><h3>Signal Intelligence</h3><ul class="tags"><li>WiFi CSI</li><li>Signal processing</li><li>Feature extraction</li></ul><p>Applied in the wireless activity-sensing project.</p></div>
+<div class="cap"><h3>Software Engineering</h3><ul class="tags"><li>React</li><li>Node.js</li><li>Spring Boot</li><li>REST APIs</li><li>Bootstrap</li></ul><p>Used to ship the models inside applications people can open.</p></div>
+<div class="cap"><h3>Tools and Data</h3><ul class="tags"><li>MySQL</li><li>Git</li><li>GitHub</li><li>VS Code</li><li>Jupyter Notebook</li><li>PyCharm</li></ul><p>Day-to-day tooling for experiments and version control.</p></div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+<h2>Software Engineering Foundation</h2>
+<p class="sub">Building real applications first made the move into applied AI/ML development more grounded.</p>
+<div class="tl"><h3>Full Stack Developer Intern, Nullclass Pvt. Ltd.</h3><div class="meta">Six months, 2025 to 2026</div>
+<ul><li>Developed a full-stack travel booking application using React, Node.js, and Bootstrap.</li><li>Integrated REST APIs for communication between frontend and backend.</li><li>Implemented booking and user-management workflows.</li><li>Worked with database operations and queries.</li></ul></div>
+</div></section>
+
+<section><div class="wrap two">
+<div><h2>Education</h2><div class="card" style="margin-top:20px"><h3>B.Tech, Artificial Intelligence and Machine Learning</h3><p>G.H. Raisoni College of Engineering &amp; Management, Pune<br>Graduated 2026 · CGPA 6.36</p></div>
+<h3 style="margin:28px 0 14px">Certifications</h3>
+<div class="card"><p>Artificial Intelligence A-Z: Agentic AI, Gen AI &amp; Reinforcement Learning, Udemy</p></div>
+<div class="card"><p>Python Programming: Beginner to Master, Udemy</p></div></div>
+<div><h2>How I Build</h2><div style="margin-top:20px">
+<div class="card"><h3>Practical over demonstrative</h3><p>Build practical solutions, not just demonstrations.</p></div>
+<div class="card"><h3>Models become software</h3><p>Connect machine learning concepts to usable software.</p></div>
+<div class="card"><h3>Iterate in the open</h3><p>Learn through experimentation, deployment, and iteration.</p></div></div></div>
+</div></section>
+
+<section id="about"><div class="wrap two">
+<div><h2>About</h2></div>
+<div><p class="lead" style="margin-top:0">I'm a 2026 Artificial Intelligence and Machine Learning graduate interested in building practical AI-powered systems. My projects explore website risk detection and wireless-signal-based activity monitoring, while my full-stack internship has helped me understand how software applications are designed and deployed. I'm looking for opportunities where I can grow as an AI/ML engineer and contribute to meaningful technical projects.</p>
+<p>Based in Chhatrapati Sambhajinagar, Maharashtra, India.</p></div>
+</div></section>
+
+<section id="contact"><div class="wrap"><div class="contact">
+<h2>Have an interesting problem? Let's build something intelligent.</h2>
+<div class="avail">Open to entry-level AI/ML engineering opportunities.</div>
+<ul>
+<li>Email: <a href="mailto:Atharwakatkar02@gmail.com">Atharwakatkar02@gmail.com</a></li>
+<li>Phone: <a href="tel:+918308998351">+91 8308998351</a></li>
+<li>LinkedIn: <a href="https://linkedin.com/in/atharwa-katkar-22109025a" target="_blank" rel="noopener">linkedin.com/in/atharwa-katkar-22109025a</a></li>
+<li>GitHub: <a href="https://github.com/AtharwaKatkar" target="_blank" rel="noopener">github.com/AtharwaKatkar</a></li></ul>
+</div></div></section>
+</main>
+
+<footer><div class="wrap"><span>© <span id="yr">2026</span> Atharwa Katkar</span><span><a href="https://linkedin.com/in/atharwa-katkar-22109025a" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/AtharwaKatkar" target="_blank" rel="noopener">GitHub</a></span></div></footer>
+
+<script>
+// Resume file path: change this to wherever your PDF lives in your deployed project.
+const RESUME_PATH="resume/Atharwa_Katkar_Resume.pdf";
+document.getElementById("yr").textContent=new Date().getFullYear();
+const r=document.getElementById("resume"),m=document.getElementById("rmsg");r.href=RESUME_PATH;
+r.addEventListener("click",async e=>{try{const x=await fetch(RESUME_PATH,{method:"HEAD"});if(!x.ok)throw 0}catch{e.preventDefault();m.hidden=false;m.textContent="Resume file not found yet. Add your PDF at "+RESUME_PATH+" and redeploy."}});
+document.querySelectorAll("[data-open]").forEach(b=>b.addEventListener("click",()=>{const d=document.getElementById(b.dataset.open).querySelectorAll("details");const open=!d[0].open;d.forEach(x=>x.open=open)}));
+const F={t:[["Input","URL and page signals"],["Preprocessing","Clean and normalize"],["Feature extraction","URL and domain features"],["Model / logic","Classification"],["Application","Web interface"],["Output","Risk indication"]],
+w:[["Input","WiFi CSI streams"],["Preprocessing","Filter noise"],["Feature extraction","Signal features"],["Model / logic","Activity classifier"],["Application","Monitoring web app"],["Output","Activity label"]]};
+const fl=document.getElementById("flow");
+function show(k){fl.innerHTML=F[k].map(s=>`<div class="stage"><b>${s[0]}</b><span>${s[1]}</span></div>`).join("");document.querySelectorAll("[data-flow]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.flow===k))}
+document.querySelectorAll("[data-flow]").forEach(b=>b.addEventListener("click",()=>show(b.dataset.flow)));show("t");
+// Hero animation: drifting nodes plus a signal wave
+const c=document.getElementById("viz"),x=c.getContext("2d");let W,H,N=[],t=0,vis=true;
+function size(){const d=devicePixelRatio||1;W=c.clientWidth;H=c.clientHeight;c.width=W*d;c.height=H*d;x.setTransform(d,0,0,d,0,0)}
+size();addEventListener("resize",size);
+for(let i=0;i<22;i++)N.push({x:Math.random(),y:Math.random()*.6,vx:(Math.random()-.5)*.0006,vy:(Math.random()-.5)*.0006});
+new IntersectionObserver(e=>vis=e[0].isIntersecting).observe(c);
+const rm=matchMedia("(prefers-reduced-motion:reduce)").matches;
+function draw(){if(vis){x.clearRect(0,0,W,H);t+=.02;
+N.forEach(n=>{if(!rm){n.x+=n.vx;n.y+=n.vy}if(n.x<0||n.x>1)n.vx*=-1;if(n.y<0||n.y>.62)n.vy*=-1});
+for(let i=0;i<N.length;i++)for(let j=i+1;j<N.length;j++){const a=N[i],b=N[j],d=Math.hypot((a.x-b.x)*W,(a.y-b.y)*H);if(d<110){x.strokeStyle=`rgba(34,211,238,${.35*(1-d/110)})`;x.beginPath();x.moveTo(a.x*W,a.y*H);x.lineTo(b.x*W,b.y*H);x.stroke()}}
+x.fillStyle="#a5d8ff";N.forEach(n=>{x.beginPath();x.arc(n.x*W,n.y*H,2.4,0,7);x.fill()});
+[["#22d3ee",0,1],["#8b7cf6",1.6,.6]].forEach(([col,ph,amp])=>{x.strokeStyle=col;x.lineWidth=1.6;x.beginPath();for(let i=0;i<=W;i+=4){const y=H*.82+Math.sin(i/32+t+ph)*14*amp*Math.sin(i/W*3.14);i?x.lineTo(i,y):x.moveTo(i,y)}x.stroke()})}
+rm?0:requestAnimationFrame(draw)}
+draw();
+</script>
+</body>
+</html>
